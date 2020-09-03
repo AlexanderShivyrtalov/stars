@@ -46,7 +46,7 @@ namespace Stars
 
         private void MoveStar(Star star)
         {
-            star.Z -= 2;
+            star.Z -= 1;
             if (star.Z < 1)
             {
                 star.X = random.Next(-pictureBox1.Width, pictureBox1.Width);
